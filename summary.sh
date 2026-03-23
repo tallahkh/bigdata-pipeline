@@ -1,14 +1,14 @@
 #!/bin/bash
 echo "copying results..."
-docker cp retail_pipeline:/app/pipeline/data_raw.csv ./results/
-docker cp retail_pipeline:/app/pipeline/data_preprocessed.csv ./results/
-docker cp retail_pipeline:/app/pipeline/insight1.txt ./results/
-docker cp retail_pipeline:/app/pipeline/insight2.txt ./results/
-docker cp retail_pipeline:/app/pipeline/insight3.txt ./results/
-docker cp retail_pipeline:/app/pipeline/summary_plot.png ./results/
-docker cp retail_pipeline:/app/pipeline/clusters.txt ./results/
+docker cp bigdata_container:/app/pipeline/data_raw.csv ./results/
+docker cp bigdata_container:/app/pipeline/data_preprocessed.csv ./results/
+docker cp bigdata_container:/app/pipeline/insight1.txt ./results/
+docker cp bigdata_container:/app/pipeline/insight2.txt ./results/
+docker cp bigdata_container:/app/pipeline/insight3.txt ./results/
+docker cp bigdata_container:/app/pipeline/summary_plot.png ./results/
+docker cp bigdata_container:/app/pipeline/clusters.txt ./results/
 
 echo "stopping container..."
-docker stop retail_pipeline
-docker rm retail_pipeline
+docker stop bigdata_container
+docker rm bigdata_container
 echo "done!"
