@@ -1,0 +1,4 @@
+PC1 bin distribution (0=low,1=mid,2=high):
+0: 1802
+1: 3039
+2: 1549

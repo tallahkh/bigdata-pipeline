@@ -1,0 +1,4 @@
+Correlation with estimate:
+AGE_NUM:0.3
+YEAR_NUM:-0.0557
+STUB_NAME_NUM:-0.039

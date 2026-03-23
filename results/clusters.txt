@@ -1,0 +1,6 @@
+KMeans clustring with k=4
+features: PC1,PC2,PC3
+cluster0:1462rows
+cluster1:2061rows
+cluster2:812rows
+cluster3:2055rows
