@@ -2,8 +2,8 @@
 **CSCI461: Introduction to Big Data — Assignment #1 | Spring 2026**
 
 ## Team Members
-- Member 1: Lina
-- Member 2: Tallah Khaled
+- Member 1: Lina Ashraf Sediq
+- Member 2: Tallah Khaled Kamal
 
 ---
 
