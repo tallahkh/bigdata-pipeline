@@ -34,12 +34,12 @@ bigdataproject/
 
 ### 1. Build the image
 ```bash
-docker build -t retail-pipeline .
+docker build -t suicide-pipeline.
 ```
 
 ### 2. Run the container
 ```bash
-docker run -it --name retail_pipeline retail-pipeline
+docker run -it --name suicide_pipeline suicide-pipeline
 ```
 
 ### 3. Run the pipeline inside the container
